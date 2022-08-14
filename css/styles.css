@@ -1,0 +1,272 @@
+body {
+  font-style: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color:
+}
+
+/* Big Heading */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigatiob Bar */
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 2% 0%;
+}
+
+/* title section */
+.slogan {
+  margin-top: 2rem;
+}
+
+/* Title section */
+#title {
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  width: 20%;
+  transform: rotate(22deg);
+  transition: 0.6s;
+  position: absolute;
+  right: 22%;
+}
+
+.title-image:hover {
+  width: 22%;
+  transform: rotate(17deg);
+  transition: 0.6s;
+}
+
+/* Feature section */
+#features {
+  padding: 5% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  /* color: #ef8172; */
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ef8172;
+}
+
+/* testimonials section*/
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 11%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Column */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.sign-up-btn {
+  margin-top: 15px;
+}
+
+/* CTA Section */
+.cta-heading {
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  font-size: 3.2rem;
+}
+
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px;
+  color: #7F7F7F;
+}
+
+.social-icon:hover {
+  transition: 0.6s;
+  color: #000000;
+}
+
+/* Media Query*/
+@media (max-width: 1400px) and (min-width: 1029px) {
+  .title-image {
+    width: 25%;
+    transform: rotate(22deg);
+    transition: 0.6s;
+    position: absolute;
+  }
+
+  .title-image:hover {
+    width: 28%;
+    transform: rotate(17deg);
+    transition: 0.6s;
+  }
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: absolute;
+    width: 26%;
+  }
+
+  .title-image:hover {
+    width: 29%;
+    transform: rotate(17deg);
+    transition: 0.6s;
+  }
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    margin-top: 10%;
+    position: static;
+    width: 47%;
+    transform: rotate(0deg);
+  }
+
+  .title-image:hover {
+    width: 50%;
+    transform: rotate(4deg);
+    transition: 0.6s;
+  }
+}
+
+@media (max-width: 700px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    margin-top: 5%;
+    position: static;
+    width: 60%;
+    transform: rotate(0deg);
+  }
+
+  .title-image:hover {
+    width: 63%;
+    transform: rotate(4deg);
+    transition: 0.6s;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    margin-top: 5%;
+    position: static;
+    width: 65%;
+    transform: rotate(0deg);
+  }
+
+  .title-image:hover {
+    width: 68%;
+    transform: rotate(4deg);
+    transition: 0.6s;
+  }
+}
